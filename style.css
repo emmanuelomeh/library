@@ -396,8 +396,19 @@ footer {
 
 /* SMALL PHONES, LARGE SMARTPHONES, TABLETS */
 @media (max-width: 768px) {
+
+  html {
+    width: 100%;
+    max-width: 768px;
+  }
+
+  .nav__container {
+    margin: 16px 0;
+  }
+  
   .header__description {
     padding: 0 24px;
+    margin-top: 100px;
   }
 
   h1 {
